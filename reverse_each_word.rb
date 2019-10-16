@@ -9,8 +9,4 @@ end
    puts collect_each_word.collect 
  end
  
- def final 
-   final = (reverse_each_word + collect).reverse
- end
- 
   
