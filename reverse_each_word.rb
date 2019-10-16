@@ -1,8 +1,17 @@
-def reverse_each_word(sentence)
-  array = word.split("Hi how are you")
+def reverse_each_word(String)
+  array = String.split(" ")
   new_array = []
-  new_array = array.collect
-  new_array.joi("Hi how are you")
+  array.each do|String|
+  new_array << String.reverse 
  end
- 
-  
+ new_array.join(" ")
+ end
+ def reverse_each_word(String)
+  array = String.split(" ")
+  a_array = []
+  array.each do|String|
+  a_array << String.reverse 
+ end
+ a_array.join(" ")
+ end
+ reverse_each_word("Hello my favorite scholl")
