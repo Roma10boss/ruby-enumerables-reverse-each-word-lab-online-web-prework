@@ -1,12 +1,8 @@
-def reverse()
-  #first code 
-  reverse_each_word= ["Hi, i love FlatIrron School"]
-  reverse_each_word.each 
-end
-
- def collect 
-   collect_each_word = ["My Favorite so far"]
-  collect_each_word.collect 
+def reverse_each_word(sentence)
+  array = word.split("Hi how are you")
+  new_array = []
+  new_array = array.collect {|array| word.reverse}
+  new_array.joi("Hi how are you")
  end
  
   
